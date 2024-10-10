@@ -7891,6 +7891,7 @@ testreg:x2; fcsr_val:0 */
 TEST_FPR4_OP(fmadd.h, f31, f30, f29, f28, dyn, 0, 0, x3, 3360*FLEN/8, x4, x1, x2)
 
 inst_1121:
+<<<<<<< HEAD
 // fs1 == 0 and fe1 == 0x1e and fm1 == 0x0fb and fs2 == 1 and fe2 == 0x0f and fm2 == 0x0c3 and fs3 == 0 and fe3 == 0x1e and fm3 == 0x1ee and fcsr == 0x20 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fmadd.h ; op1:f30; op2:f29; op3:f28; dest:f31; op1val:0x78fb; op2val:0xbcc3;
 op3val:0x79ee; valaddr_reg:x3; val_offset:3363*FLEN/8; rmval:dyn;
@@ -7903,6 +7904,20 @@ inst_1122:
 op3val:0x79ee; valaddr_reg:x3; val_offset:3366*FLEN/8; rmval:dyn;
 testreg:x2; fcsr_val:64 */
 TEST_FPR4_OP(fmadd.h, f31, f30, f29, f28, dyn, 64, 0, x3, 3366*FLEN/8, x4, x1, x2)
+=======
+// fs1 == 0 and fe1 == 0x1e and fm1 == 0x0fb and fs2 == 1 and fe2 == 0x0f and fm2 == 0x0c3 and fs3 == 0 and fe3 == 0x1e and fm3 == 0x1ee and fcsr == 0x40 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
+/* opcode: fmadd.h ; op1:f30; op2:f29; op3:f28; dest:f31; op1val:0x78fb; op2val:0xbcc3;
+op3val:0x79ee; valaddr_reg:x3; val_offset:3363*FLEN/8; rmval:dyn;
+testreg:x2; fcsr_val:64 */
+TEST_FPR4_OP(fmadd.h, f31, f30, f29, f28, dyn, 64, 0, x3, 3363*FLEN/8, x4, x1, x2)
+
+inst_1122:
+// fs1 == 0 and fe1 == 0x1e and fm1 == 0x0fb and fs2 == 1 and fe2 == 0x0f and fm2 == 0x0c3 and fs3 == 0 and fe3 == 0x1e and fm3 == 0x1ee and fcsr == 0x60 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
+/* opcode: fmadd.h ; op1:f30; op2:f29; op3:f28; dest:f31; op1val:0x78fb; op2val:0xbcc3;
+op3val:0x79ee; valaddr_reg:x3; val_offset:3366*FLEN/8; rmval:dyn;
+testreg:x2; fcsr_val:96 */
+TEST_FPR4_OP(fmadd.h, f31, f30, f29, f28, dyn, 96, 0, x3, 3366*FLEN/8, x4, x1, x2)
+>>>>>>> f6e987691b773a9a0b8902ba652ecd51241bd517
 
 inst_1123:
 // fs1 == 0 and fe1 == 0x1e and fm1 == 0x0fb and fs2 == 1 and fe2 == 0x0f and fm2 == 0x0c3 and fs3 == 0 and fe3 == 0x1e and fm3 == 0x1ee and fcsr == 0x80 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
@@ -7926,11 +7941,19 @@ testreg:x2; fcsr_val:64 */
 TEST_FPR4_OP(fmadd.h, f31, f30, f29, f28, dyn, 64, 0, x3, 3375*FLEN/8, x4, x1, x2)
 
 inst_1126:
+<<<<<<< HEAD
 // fs1 == 0 and fe1 == 0x1e and fm1 == 0x25b and fs2 == 1 and fe2 == 0x0f and fm2 == 0x0bd and fs3 == 0 and fe3 == 0x1e and fm3 == 0x389 and fcsr == 0x60 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fmadd.h ; op1:f30; op2:f29; op3:f28; dest:f31; op1val:0x7a5b; op2val:0xbcbd;
 op3val:0x7b89; valaddr_reg:x3; val_offset:3378*FLEN/8; rmval:dyn;
 testreg:x2; fcsr_val:96 */
 TEST_FPR4_OP(fmadd.h, f31, f30, f29, f28, dyn, 96, 0, x3, 3378*FLEN/8, x4, x1, x2)
+=======
+// fs1 == 0 and fe1 == 0x1e and fm1 == 0x25b and fs2 == 1 and fe2 == 0x0f and fm2 == 0x0bd and fs3 == 0 and fe3 == 0x1e and fm3 == 0x389 and fcsr == 0x80 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
+/* opcode: fmadd.h ; op1:f30; op2:f29; op3:f28; dest:f31; op1val:0x7a5b; op2val:0xbcbd;
+op3val:0x7b89; valaddr_reg:x3; val_offset:3378*FLEN/8; rmval:dyn;
+testreg:x2; fcsr_val:128 */
+TEST_FPR4_OP(fmadd.h, f31, f30, f29, f28, dyn, 128, 0, x3, 3378*FLEN/8, x4, x1, x2)
+>>>>>>> f6e987691b773a9a0b8902ba652ecd51241bd517
 
 inst_1127:
 // fs1 == 0 and fe1 == 0x1e and fm1 == 0x1ea and fs2 == 1 and fe2 == 0x0f and fm2 == 0x0fc and fs3 == 0 and fe3 == 0x1e and fm3 == 0x360 and fcsr == 0x20 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  

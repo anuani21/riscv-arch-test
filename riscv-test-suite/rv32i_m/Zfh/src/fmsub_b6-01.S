@@ -524,6 +524,7 @@ signature_x1_0:
 signature_x1_1:
     .fill 92*((SIGALIGN)/4),4,0xdeadbeef
 
+
 #ifdef rvtest_mtrap_routine
 tsig_begin_canary:
 CANARY;

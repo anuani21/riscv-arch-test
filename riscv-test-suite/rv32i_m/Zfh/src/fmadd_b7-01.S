@@ -36,6 +36,7 @@ RVTEST_VALBASEUPD(x3,test_dataset_0)
 RVTEST_SIGBASE(x1,signature_x1_1)
 
 inst_0:
+<<<<<<< HEAD
 // rs2 == rs3 != rs1 and rs2 == rs3 != rd and rd != rs1, rs1==f30, rs2==f29, rs3==f29, rd==f31,fs1 == 0 and fe1 == 0x1e and fm1 == 0x0fb and fs2 == 1 and fe2 == 0x0f and fm2 == 0x0c3 and fs3 == 0 and fe3 == 0x1e and fm3 == 0x1ee and fcsr == 0x62 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fmadd.h ; op1:f30; op2:f29; op3:f29; dest:f31; op1val:0x78fb; op2val:0xbcc3;
 op3val:0xbcc3; valaddr_reg:x3; val_offset:0*FLEN/8; rmval:dyn;
@@ -309,7 +310,7 @@ testreg:x2; fcsr_val:98 */
 TEST_FPR4_OP(fmadd.h, f2, f31, f30, f29, dyn, 98, 0, x3, 114*FLEN/8, x4, x1, x2)
 
 inst_39:
-// rd==f1,fs1 == 0 and fe1 == 0x1b and fm1 == 0x2e9 and fs2 == 1 and fe2 == 0x11 and fm2 == 0x2ec and fs3 == 0 and fe3 == 0x1e and fm3 == 0x1fb and fcsr == 0x62 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
+// rd==f1,fs1 RVTEST_DATA_END== 0 and fe1 == 0x1b and fm1 == 0x2e9 and fs2 == 1 and fe2 == 0x11 and fm2 == 0x2ec and fs3 == 0 and fe3 == 0x1e and fm3 == 0x1fb and fcsr == 0x62 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fmadd.h ; op1:f31; op2:f30; op3:f29; dest:f1; op1val:0x6ee9; op2val:0xc6ec;
 op3val:0x79fb; valaddr_reg:x3; val_offset:117*FLEN/8; rmval:dyn;
 testreg:x2; fcsr_val:98 */

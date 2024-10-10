@@ -305,6 +305,7 @@ inst_38:
 // fs1 == 0 and fe1 == 0x1c and fm1 == 0x39c and fs2 == 0 and fe2 == 0x1e and fm2 == 0x05a and fs3 == 0 and fe3 == 0x0e and fm3 == 0x1ea and fcsr == 0x0 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fnmsub.h ; op1:f30; op2:f29; op3:f28; dest:f31; op1val:0x739c; op2val:0x785a;
 op3val:0x39ea; valaddr_reg:x3; val_offset:114*FLEN/8; rmval:dyn;
+
 testreg:x2; fcsr_val:0 */
 TEST_FPR4_OP(fnmsub.h, f31, f30, f29, f28, dyn, 0, 0, x3, 114*FLEN/8, x4, x1, x2)
 

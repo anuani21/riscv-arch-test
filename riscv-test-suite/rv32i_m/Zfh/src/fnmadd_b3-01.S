@@ -7884,6 +7884,7 @@ testreg:x2; fcsr_val:128 */
 TEST_FPR4_OP(fnmadd.h, f31, f30, f29, f28, dyn, 128, 0, x3, 3357*FLEN/8, x4, x1, x2)
 
 inst_1120:
+<<<<<<< HEAD
 // fs1 == 0 and fe1 == 0x1e and fm1 == 0x257 and fs2 == 0 and fe2 == 0x0f and fm2 == 0x024 and fs3 == 0 and fe3 == 0x1e and fm3 == 0x292 and fcsr == 0x40 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fnmadd.h ; op1:f30; op2:f29; op3:f28; dest:f31; op1val:0x7a57; op2val:0x3c24;
 op3val:0x7a92; valaddr_reg:x3; val_offset:3360*FLEN/8; rmval:dyn;

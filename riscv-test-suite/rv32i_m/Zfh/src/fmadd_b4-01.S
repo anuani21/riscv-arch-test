@@ -1071,6 +1071,7 @@ inst_147:
 op3val:0x7b60; valaddr_reg:x3; val_offset:441*FLEN/8; rmval:dyn;
 testreg:x2; fcsr_val:34 */
 TEST_FPR4_OP(fmadd.h, f31, f30, f29, f28, dyn, 34, 0, x3, 441*FLEN/8, x4, x1, x2)
+
 #endif
 
 

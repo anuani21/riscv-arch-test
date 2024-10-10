@@ -36,6 +36,7 @@ RVTEST_VALBASEUPD(x3,test_dataset_0)
 RVTEST_SIGBASE(x1,signature_x1_1)
 
 inst_0:
+<<<<<<< HEAD
 // rs1 == rs2 != rs3 and rs1 == rs2 != rd and rd != rs3, rs1==f30, rs2==f30, rs3==f29, rd==f31,fs1 == 0 and fe1 == 0x1c and fm1 == 0x340 and fs2 == 1 and fe2 == 0x11 and fm2 == 0x03e and fs3 == 0 and fe3 == 0x1e and fm3 == 0x3b1 and fcsr == 0x2 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fnmsub.h ; op1:f30; op2:f30; op3:f29; dest:f31; op1val:0x7340; op2val:0x7340;
 op3val:0x7bb1; valaddr_reg:x3; val_offset:0*FLEN/8; rmval:dyn;

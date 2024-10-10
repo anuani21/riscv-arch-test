@@ -11856,6 +11856,9 @@ inst_1686:
 op3val:0x3565; valaddr_reg:x3; val_offset:5058*FLEN/8; rmval:dyn;
 testreg:x2; fcsr_val:2 */
 TEST_FPR4_OP(fnmadd.h, f31, f30, f29, f28, dyn, 2, 0, x3, 5058*FLEN/8, x4, x1, x2)
+op3val:0x2c0f; valaddr_reg:x3; val_offset:927*FLEN/8; rmval:dyn;
+testreg:x2; fcsr_val:128 */
+TEST_FPR4_OP(fnmadd.h, f31, f30, f29, f28, dyn, 128, 0, x3, 927*FLEN/8, x4, x1, x2)
 #endif
 
 

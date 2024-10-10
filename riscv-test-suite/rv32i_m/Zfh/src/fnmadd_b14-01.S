@@ -203,6 +203,7 @@ op3val:0x0; valaddr_reg:x3; val_offset:69*FLEN/8; rmval:dyn;
 testreg:x2; fcsr_val:0 */
 TEST_FPR4_OP(fnmadd.h, f8, f9, f7, f10, dyn, 0, 0, x3, 69*FLEN/8, x4, x1, x2)
 
+
 inst_24:
 // rs1==f6, rs2==f8, rs3==f9, rd==f7,
 /* opcode: fnmadd.h ; op1:f6; op2:f8; op3:f9; dest:f7; op1val:0x0; op2val:0x0;

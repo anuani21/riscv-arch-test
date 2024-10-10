@@ -133,6 +133,7 @@ op3val:0x49; valaddr_reg:x3; val_offset:39*FLEN/8; rmval:dyn;
 testreg:x2; fcsr_val:0 */
 TEST_FPR4_OP(fnmadd.h, f18, f19, f17, f16, dyn, 0, 0, x3, 39*FLEN/8, x4, x1, x2)
 
+
 inst_14:
 // rs1==f16, rs2==f18, rs3==f15, rd==f17,fs1 == 0 and fe1 == 0x00 and fm1 == 0x047 and fs2 == 0 and fe2 == 0x0f and fm2 == 0x1f8 and fs3 == 0 and fe3 == 0x00 and fm3 == 0x05a and fcsr == 0x0 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fnmadd.h ; op1:f16; op2:f18; op3:f15; dest:f17; op1val:0x47; op2val:0x3df8;
@@ -921,6 +922,7 @@ inst_126:
 // fs1 == 0 and fe1 == 0x00 and fm1 == 0x05e and fs2 == 0 and fe2 == 0x0e and fm2 == 0x098 and fs3 == 0 and fe3 == 0x00 and fm3 == 0x035 and fcsr == 0x0 and rm_val == 7  and rs1_nan_prefix == 0xffff and rs2_nan_prefix == 0xffff and rs3_nan_prefix == 0xffff  
 /* opcode: fnmadd.h ; op1:f30; op2:f29; op3:f28; dest:f31; op1val:0x5e; op2val:0x3898;
 op3val:0x35; valaddr_reg:x3; val_offset:378*FLEN/8; rmval:dyn;
+
 testreg:x2; fcsr_val:0 */
 TEST_FPR4_OP(fnmadd.h, f31, f30, f29, f28, dyn, 0, 0, x3, 378*FLEN/8, x4, x1, x2)
 
